@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.margem {
+   margin-top: 100px;
+}
+
+.body {
+   overflow-x: hidden;
+}
+
+
+.imagem {
+   background-image: url('./images/escritorio2.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+@media (max-width:992px) {
+   .grandes {
+      height: 200px !important;
+   }
+
+}
